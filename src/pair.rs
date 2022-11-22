@@ -1,7 +1,7 @@
 use crate::{Vs, Iter};
 
 
-/// An unordered pair of values
+/// An unordered pair of values.
 ///
 /// # Example
 ///

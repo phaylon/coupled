@@ -6,6 +6,7 @@ pub use pair::{Pair};
 mod vs;
 pub use vs::{Vs, VsPosition};
 
+/// A two-item iterator.
 #[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Iter<T> {
     state: Option<(T, Option<T>)>,
